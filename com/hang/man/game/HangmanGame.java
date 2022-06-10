@@ -68,8 +68,6 @@ public class HangmanGame {
                 ? EndState.LOSE : EndState.NIL;
 
         return new Pair<>(result, endState);
-        // should never happen. if it does something is
-        // very very very wrong.
     }
 
     public void printPlatformState() {
